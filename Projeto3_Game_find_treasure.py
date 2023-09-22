@@ -30,7 +30,7 @@ print("Welcome to Treasure Island./nYoor mission is to find the treasure.")
 choice1 = str(
     input(
         "You are at a cross road. Wherer do you want to go? Type 'left', 'right' or 'center'"
-    ))
+    ).lower())
 
 if (choice1 == "left"):
   print(
